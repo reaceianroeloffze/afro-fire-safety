@@ -1,0 +1,202 @@
+/* Imported fonts used for this site */
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&family=Ramabhadra&display=swap');
+
+/* For styling mobile screens and all general cross-site styles */
+
+/* ---------- General Cross-site Styles ------------- */
+
+/* Border box every container */
+* {
+    box-sizing: border-box;
+}
+
+/* Remove underline from all links */
+a {
+    text-decoration: none;
+}
+
+/* Flex Display all desired elements/containers */
+.site-header,
+.site-navigation__links-list,
+.home-link {
+    display: flex;
+}
+
+/* Centre align all headings & other desired content */
+h1, h2, h3, h4, h5, h6,
+.site-footer,
+.list-item__site-link,
+.form-para,
+.cta-box {
+    text-align: center;
+}
+
+/* Choose font for all text minus headings */
+.content {
+    font-family: "Ramabhadra", sans-serif;
+}
+
+/* Choose font for headings */
+.site-heading, .page-title {
+    font-family: "Overlock SC", sans-serif;
+}
+
+p, ul {
+    font-size: 1.2rem;
+}
+
+/* Apply a Border Radius to all desired elements */
+.site-img,
+.list-item__site-link,
+.contact-form,
+.form-input,
+.form-textarea,
+.form-button {
+    border-radius: 10px;
+}
+
+/* Centre align the logo box if so desired */
+.logo-box {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Set the site logo to the appropriate width & space it
+appropriately from the site name */
+.logo-box__logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+/* Centre align the site links */
+.home-link {
+    align-items: center;
+}
+
+/* remove margin, list style, and padding from nav ul
+& position ul elements as desired  */
+.site-navigation__links-list {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Make the navigation bar sticky or position as desired */
+.site-navigation {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: red;
+    color: white;
+}
+
+.links-list__list-item {
+    width: 100%;
+}
+
+/* display links in nav bar as block for proper alignment */
+.list-item__site-link {
+    padding: 20px 5px;
+    display: block;
+    color: white;
+}
+
+/* Pad main-content */
+.main-content {
+    padding: 0 20px;
+}
+
+/* Centre align the hero images */
+.hero-box__hero-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 30vh;
+}
+
+/* make the image fit the size of the phone screen/container */
+.fire-safety-tips {
+    width: 100% ;
+}
+
+/* Resize fire-protection-image */
+.fire-protection-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the footer */
+.site-footer {
+    background-color: red;
+    padding: 20px 0;
+    color: white;
+}
+
+/* ----------- Contact Form Styles ------------- */
+
+/* Centre align the Contact Information Box */
+.cta-box {
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+/* Set the Contact Form to a suitable width and Centre Align. */
+.contact-form {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Set all Form Labels as Block Elements for neatness and proper alignment. Set a reasonable gap between each label and corresponding input. */
+.form-label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+/* Set form inputs to a height suitable enough to tap with the entire width of a finger and avoid accidental tapping elsewhere. */
+.form-input {
+    height: 60px;
+}
+
+/* Pad all Form Inputs and Text areas and set the width of each to be the full length of the form allowing the accompanying label name to be situated above each input/text area. This excludes radio and check boxes. Also set the font of the inputs to inherit the font of its container. This may be necessary as this doesn't always seem to inherit automatically. */
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: inherit;
+    color: red;
+    outline: none;
+    border: none;
+}
+
+/* To avoid the text area from exceeding the width of the form, set its max width to be no longer than the width of its container (the form itself. Pad the tops and bottoms as desired. */
+.form-textarea {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+}
+
+/* Centre align the Submit Button of the form by setting it as a block element and position accordingly. Set Size of Butto as desired, but as with form inputs, make it big enough so that the entire width of the finger tip can tap it. */
+.form-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 5px outset white;
+    background-color: white;
+    color: red;
+}
+
+/* When clicked, change colour and border type as desired. */
+.form-button:active {
+    border: 5px inset white;
+    background-color: red;
+    color: white;
+}

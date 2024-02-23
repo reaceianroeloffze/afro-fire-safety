@@ -1,0 +1,51 @@
+/* For screens larger than 1300 pixels */
+
+@media screen and (min-width: 1300px) {
+
+    /* Colour the Body in a background colour */
+    body {
+        background-color: red;
+    }
+    
+    /* Margin the content div and colour it */
+    .content {
+        margin: 0 auto;
+        width: 70vw;
+        background-color: white;
+    }
+
+    /* Style heading sizes */
+
+    .page-title {
+        font-size: 3rem;
+    }
+
+    .site-h2 {
+        font-size: 2.5rem;
+    }
+
+    .logo-box {
+        width: 23%;
+    }
+
+    /* Customise the Width for Hero Images */
+    .hero-box__hero-img {
+        width: unset;
+        height: unset;
+    }
+
+    /* Size the hero image on the homepage appropriately */
+    .home-hero-img {
+        width: 60%;
+    }
+
+    .fire-safety-tips {
+        width: 40%;
+    }
+
+    /* Resize fire-protection-image */
+    .fire-protection-img {
+        width: 50%;
+    }
+
+}

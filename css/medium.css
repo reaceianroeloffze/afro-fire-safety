@@ -1,0 +1,20 @@
+/* for screens between 560 pixels and 1300 pixels */
+
+@media screen and (min-width: 560px) {
+
+    .logo-box {
+        width: 30%;
+    }
+
+    .contact-form,
+    .cta-box {
+        width: 560px;
+    }
+
+    .fire-safety-tips {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
