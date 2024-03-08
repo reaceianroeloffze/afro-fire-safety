@@ -14,6 +14,12 @@
         background-color: white;
     }
 
+    /* Reverse the colours of the nav links when hovered over */
+    .list-item__site-link:hover {
+        background-color: white;
+        color: red;
+    }
+
     /* Style heading sizes */
 
     .page-title {
@@ -22,6 +28,10 @@
 
     .site-h2 {
         font-size: 2.5rem;
+    }
+
+    .site-h3 {
+        font-size: 2rem;
     }
 
     .logo-box {

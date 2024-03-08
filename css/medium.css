@@ -2,6 +2,22 @@
 
 @media screen and (min-width: 560px) {
 
+    .page-title {
+        font-size: 2.7rem;
+    }
+
+    .site-h2 {
+        font-size: 2.3rem;
+    }
+
+    .site-h3 {
+        font-size: 1.7rem;
+    }
+
+    .site-para {
+        font-size: 1.3rem;
+    }
+
     .logo-box {
         width: 30%;
     }

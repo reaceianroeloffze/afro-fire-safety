@@ -47,7 +47,6 @@ p, ul {
 
 /* Apply a Border Radius to all desired elements */
 .site-img,
-.list-item__site-link,
 .contact-form,
 .form-input,
 .form-textarea,
@@ -99,6 +98,7 @@ appropriately from the site name */
     padding: 20px 5px;
     display: block;
     color: white;
+    transition: .3s;
 }
 
 /* Pad main-content */

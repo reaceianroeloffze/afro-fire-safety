@@ -8,4 +8,4 @@ const options2 = {
     dateStyle: 'short'
 };
 
-let update = document.querySelector('.last-updated__date').textContent = new Date(document.lastModified).toLocaleDateString('en-za', options2);
+// let update = document.querySelector('.last-updated__date').textContent = new Date(document.lastModified).toLocaleDateString('en-za', options2);
